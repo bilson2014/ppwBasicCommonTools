@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>pat-common-web</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>${pat-common-web.version}</version>
 	<packaging>jar</packaging>
 
 	<name>pat-common-web</name>
@@ -20,6 +20,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
+		<!-- FastDFS Dependence Begin -->
+		<dependency>
+			<groupId>com.paipianwang.fastdfs-client</groupId>
+			<artifactId>FastDFS-Client</artifactId>
+		</dependency>
+		<!-- FastDFS Dependence End -->
 		<dependency>
 			<groupId>com.paipianwang.pat</groupId>
 			<artifactId>pat-common</artifactId>
@@ -78,7 +84,6 @@
 		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-solrj</artifactId>
-			<version>5.5.0</version>
 		</dependency>
 		<!-- Solr Dependence End -->
 
@@ -88,12 +93,5 @@
 			<artifactId>jedis</artifactId>
 		</dependency>
 		<!-- Redis Dependence End -->
-
-		<!-- FastDFS Dependence Begin -->
-		<dependency>
-			<groupId>com.paipianwang.fastdfs-client</groupId>
-			<artifactId>FastDFS-Client</artifactId>
-		</dependency>
-		<!-- FastDFS Dependence End -->
 	</dependencies>
 </project>
