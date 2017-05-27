@@ -38,4 +38,6 @@ public interface BaseSolrService {
 	public List<String> suggestProductDocs(final String solrUrl,final SolrQuery query);
 	
 	public List<PmsNewsSolr> queryNewDocs(final String solrUrl, final SolrQuery query);
+	
+	public List<String> getAnalysis(final String solrUrl, final String sentence);
 }
