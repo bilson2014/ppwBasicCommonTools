@@ -57,7 +57,7 @@ public class GenerateWord {
 	 * @return
 	 */
 	private static String getTemplate(int modelType) {
-		return PublicConfig.FILE_TEMPLATE_PATH+File.separator+"template"+File.separator+"W-04客户项目服务函-模板x.docx";
+		return PublicConfig.FILE_TEMPLATE_PATH+File.separator+"template"+File.separator+"customerServiceLetterTemplate.docx";
 //		return "f:/W-04客户项目服务函-模板x.docx";
 	}
 }

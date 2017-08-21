@@ -60,7 +60,6 @@ public class XWPFParagraphHandler {
 				}
 			}
 		}
-		System.out.println(context.toString());
 	}
 	
 	/**

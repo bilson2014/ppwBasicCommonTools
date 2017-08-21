@@ -55,7 +55,7 @@ public class GenerateExcel {
 	 * @return
 	 */
 	private static String getTemplate(int modelType){
-		return PublicConfig.FILE_TEMPLATE_PATH+File.separator+"template"+File.separator+"C-02项目制作单 - 模板.xlsx";
+		return PublicConfig.FILE_TEMPLATE_PATH+File.separator+"template"+File.separator+"projectSheetTemplate.xlsx";
 //		return "f:\\C-02项目制作单 - 模板.xlsx";
 	}
 	
