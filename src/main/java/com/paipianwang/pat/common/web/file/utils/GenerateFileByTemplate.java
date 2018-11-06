@@ -77,9 +77,10 @@ public class GenerateFileByTemplate {
 		}
 
 	}
-	
+	//线上图片地址不支持https://resource.apaipian.com/resource/ 需无https
 	public static String getFullImgPath(String path) {
 		return PublicConfig.FDFS_URL+path;
+//		return "http://10.10.112.236/"+path;
 	}	
 	
 }
